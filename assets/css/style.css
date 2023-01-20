@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 40px 0;
+}
+.container{
+  width:80%;
+}
+a{
+  
+  text-decoration: none;
+}
+.feedback h2 {
+  padding-right: 40px;
+color: #808080;
+
+text-transform: uppercase;
+  font-family: 'Noto Sans', sans-serif;
+font-weight: bold;
+position: relative;
+font-family: 'Dancing Script', cursive;
+}
+.feedback h2::after {
+content: "";
+width: 140px;
+position: absolute;
+margin: 0 auto;
+height: 3px;
+background: #383231;
+left: 0;
+right: 0;
+bottom: -10px;
+  opacity: .8;
+}
+
+.col-center {
+margin: 0 auto;
+float: none !important;
+}
+.carousel {
+margin: 50px auto;
+padding: 0 70px;
+
+}
+.carousel-item {
+color: #999;
+font-size: 14px;
+  text-align: center;
+overflow: hidden;
+  min-height: 290px;
+}
+h2{
+  text-align: end;
+  color:#09478a;
+}
+.feedback p{
+width: 80%;
+color:#09478a;
+}
+.carousel-item .item{
+width: 3000px;
+}
+.carousel .testimonial {
+padding: 30px 0 10px;
+}
+.carousel .overview {	
+font-style: italic;
+}
+.carousel .overview b {
+text-transform: uppercase;
+color: #09478a;
+}
+.carousel .carousel-control {
+width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+background: none;
+color: #09478a;
+}
+
+.carousel-control i {
+  font-size: 68px;
+ position: absolute;
+  display: inline-block;
+color: #09478a;
+  
+}
+
+
+.carousel-indicators li, .carousel-indicators li.active {
+width: 10px;
+height: 10px;
+margin: 1px 3px;
+border-radius: 50%;
+}
+.carousel-indicators li {	
+background: #999;
+border-color: transparent;
+box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.contact{
+  background-color:#ebe9eb;                                
+}
+.btn{
+  box-sizing: border-box;
+  color: white;
+  background-color:#09478a;
+}
+.contact-info{
+  padding-top: 6%;
+}
+.contact-info li{
+margin-bottom: 25%;
+list-style: none;
+color: #09478a;
+}
+.contact-info li i{
+  font-size: 30px;
+}
+.contact-info li  a {
+  color: #09478a;
+  text-decoration: none;
+}
+.contact h3{
+  color: #09478a;
+}
+.logo{
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+}
+footer{
+background-color:#05376c;
+}
+footer .social{
+  text-align: center;
+  padding-top: 38px;
+}
+footer .social a{
+  display: inline-block;
+}
+footer .social i{
+  font-size: 25px;
+  border-color: aliceblue;
+  border-radius: 10%;
+  border: 1px solid rgb(23, 129, 228);
+  padding :10px;
+}
+footer .links  {
+  text-align: center;
+}
+footer .links a {
+  color:#ebe9eb;
+  display: inline-block;
+  
+}
+footer .links li{
+  border-bottom: 1px solid white;
+  padding :20px;
+}
+footer h3{
+  padding: 3%;
+  font-size: 50px;
+  color:white;
+  font-family: 'Dancing Script', cursive;
+}
+/* media */
+@media (max-width: 575.98px) { 
+.feedback .img{
+  display: none;
+}
+   .feedback h2::after{
+    display: none;
+   }
+   .feedback p{
+    width: 100%;
+    color:#09478a;
+    }
+}
+
+
+@media (max-width: 767.98px) { 
+
+.feedback p{
+  font-size: x-large;
+}
+
+}
+@media (max-width: 768px) {
+  .feedback p{
+    font-size: x-large;
+  }
+ }
+
+
+@media only screen and (max-width: 1199px) {
+.feedback p{
+  font-size: x-large;
+}
+footer h3{
+  display: none;
+}
+
+footer .links a{
+  padding-right: 3px;
+}
+} 
+@media only screen and (max-width: 1280px) {
+footer{
+  position: relative;
+}
+  footer .social i{
+    border: 0px solid rgb(23, 129, 228);
+    
+  }
+  .logo{
+    display: none;
+  }
+
+  footer .links li{
+    border-bottom: 0px solid white;
+    font-size: 20px;
+  }
+ 
+}
